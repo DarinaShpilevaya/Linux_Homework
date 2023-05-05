@@ -1,0 +1,122 @@
+   0 cd /home/
+   1 mkdir animals
+   2 ls
+   3 cd animals/
+   4 mkdir dogs
+   5 ls
+   6 mkdir cats
+   7 ls
+   8 mkdir fish
+   9 ls
+  10 cd dogs/
+  11 touch pluto.txt
+  12 ls
+  13 cd cats/
+  14 cd animals
+  15 cd ../..
+  16 cd animals/
+  17 cd cats/
+  18 touch garfield.txt
+  19 ls
+  20 cd ..
+  21 cd fish/
+  22 touch nemo.txt
+  23 ls
+  24 cd ..
+  25 ls
+  26 tree
+  27 cd ..
+  28 mkdir planets
+  29 ls
+  30 cd opt/
+  31 ls /opt
+  32 cd
+  33 cd /opt
+  34 touch Mercury.txt
+  35 touch Venus.txt
+  36 touch Mars.txt
+  37 touch Jupiter.txt
+  38 ls
+  39 mv Mercury.txt Venus.txt Mars.txt Jupiter.txt planets
+  40 mv Mercury.txt planets
+  41 ls
+  42 mv Venus.txt planets
+  43 mv Mars.txt planets
+  44 mv Jupiter.txt planets
+  45 tree
+  46 cd
+  47 cd /planets
+  48 cd planets/
+  49 cd /home/planets
+  50 ls
+  51 tree
+  52 ls
+  53 ls -a
+  54 ls -f
+  55 ls
+  56 ls -l
+  57 cd
+  58 cd opt/
+  59 cd 7opt
+  60 cd /opt
+  61 ls
+  62 cd /opt/planets
+  63 cd /opt/planets/
+  64 св
+  65 cd
+  66 find Venus.txt
+  67 find /opt/ -name Mercury.txt
+  68 ls
+  69 cd /opt
+  70 ls
+  71 cd /planets
+  72 planets
+  73 cd /home
+  74 ls
+  75 cd /home/planets/
+  76 ls
+  77 tree
+  78 cd
+  79 cd /opt
+  80 ls
+  81 cd
+  82 tree /home
+  83 history
+  84 tree /opt
+  85 cd /opt && touch Mercury.txt Venus.txt Mars.txt Jupiter.txt
+  86 ls
+  87 mv /opt/Mercury.txt/home/planets/Mercury.txt
+  88 mv /opt/Mercury.txt/ home/planets/Mercury.txt
+  89 mv /opt/Mercury.txt /home/planets/Mercury.txt
+  90 ды
+  91 ls
+  92 mv /opt/Venus.txt /home/planets/Venus.txt
+  93 mv /opt/Mars.txt /home/planet/Mars.txt
+  94 mv /opt/Mars.txt /home/planets/Mars.txt
+  95 mv /opt/Jupiter.txt /home/planets/Jupiter.txt
+  96 tree /home
+  97 св
+  98 cd
+  99 cd /tmp
+ 100 touch Adam.txt
+ 101 ls
+ 102 cd
+ 103 cd /home
+ 104 mkdir human
+ 105 tree /home
+ 106 cd
+ 107 cd /tmp
+ 108 cp /tmp/Adam.txt /home/human/Adam.txt
+ 109 tree /home
+ 110 touch evA.txt
+ 111 ls
+ 112 cp /tmp/evA.txt /home/human/eva.txt
+ 113 tree /home
+ 114 cp /tmp/evA.txt /home/human/eve.txt
+ 115 tree /home
+ 116 cd
+ 117 cd /home/human
+ 118 rm -f eva.txt
+ 119 ls
+ 120 history
+ 121 history > history.txt
